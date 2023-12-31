@@ -1,9 +1,54 @@
+body{
+    box-sizing: border-box;
+}
+
+/* Home page styling */
+
+.title-container{
+    margin: 0 auto;
+}
+
+.title-container h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 48px;
+}
+
+.landingpage-imagecontainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100;
+   
+    height: auto 30vh;
+    margin-top: 30vh;
+}
+
+.recipe-image{
+    flex: 1;
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.recipe-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.recipe-image img:hover {
+    transform: scale(1.05);
+}
+
+/* recipe pages styling */
+
 .sub-head{
     background-color: #4b9560;
     color: #e9eac8; 
 }
 
-.sub-body{
+.sub-body{ 
     background-color: #581b23;
     color: #e9eac8; 
 }
